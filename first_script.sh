@@ -5,5 +5,3 @@ echo "The first: $FIRST and The second: $SECOND"
 uname -a 
 
 whoami 
-
-echo "This is a new line"
