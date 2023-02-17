@@ -5,3 +5,5 @@ echo "The first: $FIRST and The second: $SECOND"
 uname -a 
 
 whoami 
+
+echo "Hello $SECOND"
