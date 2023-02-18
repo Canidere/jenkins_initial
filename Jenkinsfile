@@ -8,7 +8,9 @@ pipeline{
             }
         }
         stage('Intermediate'){
-            sh './second_script.sh >> output.txt'
+            steps{
+                sh './second_script.sh >> output.txt'
+            }
         }
     }
     post {
