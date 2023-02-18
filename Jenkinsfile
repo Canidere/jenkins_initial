@@ -7,5 +7,13 @@ pipeline{
                 sh "uname -a >> output.txt"
             }
         }
+        stage('Intermediate'){
+            sh './second_script.sh >> output.txt'
+        }
     }
+    post {
+        success {
+                archiveArtifacts artifacts: 'output.txt', followSymlinks: false
+            }
+        }
 }
