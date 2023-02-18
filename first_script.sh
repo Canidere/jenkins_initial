@@ -8,3 +8,4 @@ whoami
 
 echo "Hello $FIRST"
 echo "Hello $SECOND"
+echo "I hope this works now"
