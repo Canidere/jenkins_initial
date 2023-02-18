@@ -9,6 +9,7 @@ pipeline{
         }
         stage('Intermediate'){
             steps{
+                sh 'chmod +x ./second_script.sh'
                 sh './second_script.sh >> output.txt'
             }
         }
