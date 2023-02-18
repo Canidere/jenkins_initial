@@ -6,4 +6,5 @@ uname -a
 
 whoami 
 
+echo "Hello $FIRST"
 echo "Hello $SECOND"
